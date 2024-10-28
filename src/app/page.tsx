@@ -11,7 +11,9 @@ export default function Home() {
       <Bio />
       <Separator />
       <SkillSection />
-      <Projects />
+      <section id="projects">
+        <Projects />
+      </section>
     </div>
   );
 }

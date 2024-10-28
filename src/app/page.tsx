@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import Projects from "@/components/project-section";
 import SkillSection from "@/components/skill-section";
 import { Separator } from "@/components/ui/separator";
+import Work from "@/components/work-section";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
       <SkillSection />
       <section id="projects">
         <Projects />
+      </section>
+      <section id="work">
+        <Work />
       </section>
     </div>
   );

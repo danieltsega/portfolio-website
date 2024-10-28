@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/project-section";
 import SkillSection from "@/components/skill-section";
+import SocialLinks from "@/components/social-card";
 import { Separator } from "@/components/ui/separator";
 import Work from "@/components/work-section";
 
@@ -14,6 +15,8 @@ export default function Home() {
       <Navbar></Navbar>
       {/*Hero Section*/}
       <Bio />
+
+      <SocialLinks />
       <Separator />
       {/*Skill Section*/}
       <SkillSection />

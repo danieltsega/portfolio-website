@@ -12,8 +12,11 @@ const ContactCard: React.FC = () => {
       </h2>
       <p className="text-gray-900 text-lg">
         I’m open to new projects and collaborations. Feel free to reach out if
-        you have an idea or project in mind. your.{" "}
-        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        you have an idea or project in mind.
+        <a href="mailto:your.email@example.com" className="ml-2">
+          {" "}
+          your.email@example.com
+        </a>
       </p>
     </div>
   );

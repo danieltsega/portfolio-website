@@ -32,7 +32,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       />
       <div className="p-4">
         <h2 className="text-lg font-semibold mb-2">{title}</h2>
-        <p className="text-gray-700 text-sm mb-4">{description}</p>
+        <p className="text-gray-700 text-sm mb-4 text-muted-foreground tracking-tight">
+          {description}
+        </p>
         <div className="flex items-center space-x-2 mb-4">
           {technologies.map((Icon, index) => (
             <Icon key={index} className="w-5 h-5 text-blue-500" />

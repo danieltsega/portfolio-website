@@ -18,13 +18,27 @@ const Bio = () => {
         />
       </div>
       <div className="w-full md:w-2/3 md:pl-4 mt-8 md:mt-0 text-center md:text-left">
-        <h2 className="text-3xl font-bold mb-3">Hi, I'm John Doe</h2>
-        <p>
-          I'm a passionate developer with over 5 years of experience in building
-          web applications. My expertise lies in Django for backend development
-          and Next.js for the front-end. I thrive on solving complex problems
-          and creating seamless user experiences. In my spare time, I contribute
-          to open-source projects and write technical blogs.
+        <h2 className="text-3xl font-bold mb-3">
+          <span className="text-5xl py-2">
+            Hi{" "}
+            <span
+              role="img"
+              aria-label="waving hand"
+              className="text-yellow-500 text-3xl"
+            >
+              👋
+            </span>
+          </span>
+          <br /> am Daniel Tsega
+        </h2>
+        <p className="text-lg text-muted-foreground tracking-tight">
+          I'm a dedicated developer specializing in{" "}
+          <span className="font-bold">Next.js</span> for front-end and
+          <span className="font-bold"> Django </span>
+          for back-end, with past experience in Laravel. Currently, I’m diving
+          into AI, focusing on machine learning, deep learning, and data
+          science, while also nurturing a deep interest in computer
+          architectures and low-level computing concepts.
         </p>
       </div>
     </section>

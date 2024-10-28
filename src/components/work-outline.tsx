@@ -30,7 +30,9 @@ const WorkCard: React.FC<WorkCardProps> = ({
         <h2 className="text-xl font-semibold">{companyTitle}</h2>
         <h3 className="text-gray-600">{role}</h3>
         <p className="text-gray-500 text-sm mb-2">{`${startDate} - ${endDate}`}</p>
-        <p className="text-gray-700">{description}</p>
+        <p className="text-gray-700 text-muted-foreground tracking-tight">
+          {description}
+        </p>
       </div>
     </div>
   );

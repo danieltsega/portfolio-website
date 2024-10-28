@@ -121,7 +121,7 @@ interface WorkExperience {
 // List of work experiences in chronological order (most recent first)
 export const workExperiences: WorkExperience[] = [
   {
-    logo: "/logo.jfif", // path in the public folder
+    logo: "/world.jfif", // path in the public folder
     companyTitle: "Freelance",
     role: "Full Stack Developer",
     description:
@@ -130,8 +130,8 @@ export const workExperiences: WorkExperience[] = [
     endDate: "Present",
   },
   {
-    logo: "/logo.jfif",
-    companyTitle: "Tech Corp",
+    logo: "/ankiyon.jpg",
+    companyTitle: "Ankiyon Design",
     role: "Full Stack Developer",
     description:
       "Developing web applications and APIs using Next.js and Django, integrating front-end designs with back-end functionality.",
@@ -139,8 +139,8 @@ export const workExperiences: WorkExperience[] = [
     endDate: "Present",
   },
   {
-    logo: "/logo.jfif",
-    companyTitle: "IT Solutions",
+    logo: "/dire.jfif",
+    companyTitle: "Dire Dawa Inistitute & Technology",
     role: "Network Installer & Full Stack Developer Intern",
     description:
       "Installed and maintained network systems and assisted in developing small web applications as part of the internship program.",

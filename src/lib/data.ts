@@ -106,3 +106,45 @@ export const projects: Project[] = [
     githubLink: "https://github.com/yourusername/finance-tracker",
   },
 ];
+
+// src/workData.ts
+
+interface WorkExperience {
+  logo: string;
+  companyTitle: string;
+  role: string;
+  description: string;
+  startDate: string;
+  endDate: string | "Present";
+}
+
+// List of work experiences in chronological order (most recent first)
+export const workExperiences: WorkExperience[] = [
+  {
+    logo: "/logo.jfif", // path in the public folder
+    companyTitle: "Freelance",
+    role: "Full Stack Developer",
+    description:
+      "Building full-stack applications for various clients, focusing on scalable and efficient solutions using modern web technologies.",
+    startDate: "June 2023",
+    endDate: "Present",
+  },
+  {
+    logo: "/logo.jfif",
+    companyTitle: "Tech Corp",
+    role: "Full Stack Developer",
+    description:
+      "Developing web applications and APIs using Next.js and Django, integrating front-end designs with back-end functionality.",
+    startDate: "March 2022",
+    endDate: "Present",
+  },
+  {
+    logo: "/logo.jfif",
+    companyTitle: "IT Solutions",
+    role: "Network Installer & Full Stack Developer Intern",
+    description:
+      "Installed and maintained network systems and assisted in developing small web applications as part of the internship program.",
+    startDate: "September 2021",
+    endDate: "February 2022",
+  },
+];

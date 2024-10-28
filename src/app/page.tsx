@@ -1,5 +1,6 @@
 import Bio from "@/components/bio";
 import Navbar from "@/components/navbar";
+import Projects from "@/components/project-section";
 import SkillSection from "@/components/skill-section";
 import { Separator } from "@/components/ui/separator";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Bio />
       <Separator />
       <SkillSection />
+      <Projects />
     </div>
   );
 }

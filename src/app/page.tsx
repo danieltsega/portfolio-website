@@ -1,4 +1,5 @@
 import Bio from "@/components/bio";
+import Contact from "@/components/contact-section";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/project-section";
 import SkillSection from "@/components/skill-section";
@@ -17,6 +18,9 @@ export default function Home() {
       </section>
       <section id="work">
         <Work />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   );

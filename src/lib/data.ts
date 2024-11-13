@@ -126,7 +126,7 @@ export const workExperiences: WorkExperience[] = [
     role: "Full Stack Developer",
     description:
       "Building full-stack applications for various clients, focusing on scalable and efficient solutions using modern web technologies.",
-    startDate: "June 2023",
+    startDate: "March 2022",
     endDate: "Present",
   },
   {

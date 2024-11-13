@@ -36,9 +36,9 @@ const Bio = () => {
           <span className="font-bold">Next.js</span> for front-end and
           <span className="font-bold"> Django </span>
           for back-end, with past experience in Laravel. Currently, I’m diving
-          into AI, focusing on machine learning, deep learning, and data
-          science, while also nurturing a deep interest in computer
-          architectures and low-level computing concepts.
+          into AI, focusing on machine learning, deep learning, and computer
+          vision, while also nurturing a deep interest in computer architectures
+          and low-level computing concepts.
         </p>
       </div>
     </section>

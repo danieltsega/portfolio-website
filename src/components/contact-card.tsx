@@ -13,9 +13,9 @@ const ContactCard: React.FC = () => {
       <p className="text-gray-900 text-lg">
         I’m open to new projects and collaborations. Feel free to reach out if
         you have an idea or project in mind.
-        <a href="mailto:your.email@example.com" className="ml-2">
+        <a href="mailto:dannytsega@outlook.com" className="ml-2 text-blue-500">
           {" "}
-          your.email@example.com
+          dannytsega@outlook.com
         </a>
       </p>
     </div>

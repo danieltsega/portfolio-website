@@ -135,7 +135,7 @@ export const workExperiences: WorkExperience[] = [
     role: "Full Stack Developer",
     description:
       "Developing web applications and APIs using Next.js and Django, integrating front-end designs with back-end functionality.",
-    startDate: "March 2022",
+    startDate: "February 2024",
     endDate: "Present",
   },
   {

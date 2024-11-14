@@ -137,7 +137,7 @@ interface WorkExperience {
 // List of work experiences in chronological order (most recent first)
 export const workExperiences: WorkExperience[] = [
   {
-    logo: "/world.jfif", // path in the public folder
+    logo: "/world.png", // path in the public folder
     companyTitle: "Freelance",
     role: "Full Stack Developer",
     description:
@@ -155,7 +155,7 @@ export const workExperiences: WorkExperience[] = [
     endDate: "Present",
   },
   {
-    logo: "/dire.jfif",
+    logo: "/dire.png",
     companyTitle: "Dire Dawa University ICT Directorate",
     role: "Network Installer & Full Stack Developer Intern",
     description:

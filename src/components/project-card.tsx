@@ -15,6 +15,7 @@ import {
   SiLaravel,
   SiFlask,
   SiC,
+  SiLinux,
 } from "react-icons/si";
 
 interface ProjectCardProps {
@@ -53,6 +54,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
             switch (Icon) {
               case SiC:
+                iconColor = "text-blue-800";
+                break;
+              case SiLinux:
                 iconColor = "text-black";
                 break;
               case SiNextdotjs:

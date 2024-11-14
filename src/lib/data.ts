@@ -18,6 +18,8 @@ import {
   SiGnubash,
   SiPhp,
   SiMarkdown,
+  SiRedis,
+  SiLinux,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IconType } from "react-icons";
@@ -46,6 +48,7 @@ export const technologies = [
   { icon: SiTensorflow, text: "Tensorflow" },
   { icon: SiGit, text: "Git" },
   { icon: SiDocker, text: "Docker" },
+  { icon: SiLinux, text: "Linux" },
 ];
 
 interface Project {
@@ -69,10 +72,10 @@ export const projects: Project[] = [
   },
   {
     thumbnail: "/thumbnail.jfif",
-    title: "Social Media App",
+    title: "Car Rental Web App",
     description:
-      "A social media application built with Django and Tailwind CSS.",
-    technologies: [SiPython, SiDjango, SiTailwindcss],
+      "This Django-based web application allows users to rent cars, manage bookings, and leave reviews.",
+    technologies: [SiDjango, BiLogoPostgresql, SiRedis],
     liveDemoLink: "https://social-media-demo.com",
     githubLink: "https://github.com/yourusername/social-media-app",
   },
@@ -87,9 +90,10 @@ export const projects: Project[] = [
   },
   {
     thumbnail: "/thumbnail.jfif",
-    title: "Blog Platform",
-    description: "A blogging platform built with Django and Tailwind CSS.",
-    technologies: [SiPython, SiDjango, SiTailwindcss],
+    title: "Simple Shell",
+    description:
+      "A program that creates a new command line interpreter that is used as a linux shell.",
+    technologies: [SiC, SiLinux],
     liveDemoLink: "https://blog-platform-demo.com",
     githubLink: "https://github.com/yourusername/blog-platform",
   },

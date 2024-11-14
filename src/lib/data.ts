@@ -148,8 +148,8 @@ export const workExperiences: WorkExperience[] = [
     role: "Network Installer & Full Stack Developer Intern",
     description:
       "Installed and maintained network systems and assisted in developing small web applications as part of the internship program.",
-    startDate: "September 2021",
-    endDate: "February 2022",
+    startDate: "October 2021",
+    endDate: "January 2022",
   },
 ];
 

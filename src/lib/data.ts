@@ -179,7 +179,7 @@ interface Education {
 // List of Education in chronological order (most recent first)
 export const Education: Education[] = [
   {
-    logo: "/dire.jfif", // path in the public folder
+    logo: "/dire.png", // path in the public folder
     eduTitle: "Dire Dawa University",
     department: "BSc in Electrical & Computer Engineering (Computer Stream)",
     description:

@@ -74,7 +74,7 @@ export const projects: Project[] = [
       "A full-featured google chrome extension to manage sites & bookmarks on browser built with HTML, TailwindCss & JS.",
     technologies: [SiHtml5, SiJavascript, SiTailwindcss],
     liveDemoLink: "https://ecommerce-demo.com",
-    githubLink: "https://github.com/yourusername/ecommerce-platform",
+    githubLink: "https://github.com/danieltsega/Uchi",
   },
   {
     thumbnail: "/thumbnail.jfif",
@@ -83,7 +83,7 @@ export const projects: Project[] = [
       "This Django-based web application allows users to rent cars, manage bookings, and leave reviews.",
     technologies: [SiDjango, BiLogoPostgresql, SiRedis],
     liveDemoLink: "https://social-media-demo.com",
-    githubLink: "https://github.com/yourusername/social-media-app",
+    githubLink: "https://github.com/danieltsega/car-rental-system",
   },
   {
     thumbnail: "/thumbnail.jfif",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
       "A personal portfolio website built with Next.js and Tailwind CSS.",
     technologies: [SiNextdotjs, SiTailwindcss],
     liveDemoLink: "https://portfolio-demo.com",
-    githubLink: "https://github.com/yourusername/portfolio-website",
+    githubLink: "https://github.com/danieltsega/portfolio-website",
   },
   {
     thumbnail: "/thumbnail.jfif",
@@ -101,7 +101,7 @@ export const projects: Project[] = [
       "A program that creates a new command line interpreter that is used as a linux shell.",
     technologies: [SiC, SiLinux],
     liveDemoLink: "https://blog-platform-demo.com",
-    githubLink: "https://github.com/yourusername/blog-platform",
+    githubLink: "https://github.com/danieltsega/simple_shell",
   },
   {
     thumbnail: "/thumbnail.jfif",
@@ -110,7 +110,7 @@ export const projects: Project[] = [
       "An Airbnb Clone web app built using HTML, CSS, and Flask, featuring a Flask API for handling backend functionality",
     technologies: [SiFlask, SiMysql, SiHtml5, SiCss3],
     liveDemoLink: "https://task-manager-demo.com",
-    githubLink: "https://github.com/yourusername/task-manager",
+    githubLink: "https://github.com/abdi-bb/AirBnB_clone_v4",
   },
   {
     thumbnail: "/thumbnail.jfif",
@@ -119,7 +119,7 @@ export const projects: Project[] = [
       "A web application built with Nextjs & Django for users to access & hire tasks providers or get instruction on how to do the task themselves.",
     technologies: [SiNextdotjs, SiDjango, SiTailwindcss],
     liveDemoLink: "https://finance-tracker-demo.com",
-    githubLink: "https://github.com/yourusername/finance-tracker",
+    githubLink: "https://github.com/danieltsega/guday-frontend",
   },
 ];
 

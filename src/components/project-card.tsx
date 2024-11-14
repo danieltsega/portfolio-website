@@ -48,6 +48,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <p className="text-gray-700 text-lg mb-4 text-muted-foreground tracking-tight">
           {description}
         </p>
+        <hr className="mb-4" />
         <div className="flex items-center space-x-2 mb-4 gap-2">
           {technologies.map((Icon, index) => {
             let iconColor = "text-blue-500"; // default color

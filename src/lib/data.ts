@@ -24,6 +24,8 @@ import {
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IconType } from "react-icons";
 
+// Get Languages Icons
+
 export const languages = [
   { icon: SiTypescript, text: "TypeScript" },
   { icon: SiJavascript, text: "JavaScript" },
@@ -35,6 +37,8 @@ export const languages = [
   { icon: SiC, text: "C-programming" },
   { icon: SiGnubash, text: "Bash" },
 ];
+
+// Get Techonologies Icons
 
 export const technologies = [
   { icon: SiNextdotjs, text: "Next.js" },
@@ -50,6 +54,8 @@ export const technologies = [
   { icon: SiDocker, text: "Docker" },
   { icon: SiLinux, text: "Linux" },
 ];
+
+// Projects Data
 
 interface Project {
   thumbnail: string;
@@ -117,7 +123,7 @@ export const projects: Project[] = [
   },
 ];
 
-// src/workData.ts
+// Work Experience Data
 
 interface WorkExperience {
   logo: string;
@@ -159,6 +165,8 @@ export const workExperiences: WorkExperience[] = [
   },
 ];
 
+// Education Data
+
 interface Education {
   logo: string;
   eduTitle: string;
@@ -168,7 +176,7 @@ interface Education {
   endDate: string | "Present";
 }
 
-// List of work experiences in chronological order (most recent first)
+// List of Education in chronological order (most recent first)
 export const Education: Education[] = [
   {
     logo: "/dire.jfif", // path in the public folder

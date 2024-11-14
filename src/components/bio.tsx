@@ -32,10 +32,10 @@ const Bio = () => {
           <br /> am Daniel Tsega
         </h2>
         <p className="text-lg text-muted-foreground tracking-tight">
-          I'm a dedicated developer specializing in{" "}
+          Am a dedicated developer specializing in{" "}
           <span className="font-bold">Next.js</span> for front-end and
           <span className="font-bold"> Django </span>
-          for back-end, with past experience in Laravel. Currently, I’m diving
+          for back-end, with past experience in Laravel. Currently, am diving
           into AI, focusing on machine learning, deep learning, and computer
           vision, while also nurturing a deep interest in computer architectures
           and low-level computing concepts.

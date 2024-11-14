@@ -16,6 +16,8 @@ import {
   SiFlask,
   SiC,
   SiGnubash,
+  SiPhp,
+  SiMarkdown,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IconType } from "react-icons";
@@ -24,6 +26,8 @@ export const languages = [
   { icon: SiTypescript, text: "TypeScript" },
   { icon: SiJavascript, text: "JavaScript" },
   { icon: SiPython, text: "Python" },
+  { icon: SiPhp, text: "PHP" },
+  { icon: SiMarkdown, text: "Markdown" },
   { icon: SiHtml5, text: "HTML5" },
   { icon: SiCss3, text: "CSS3" },
   { icon: SiC, text: "C-programming" },
@@ -140,11 +144,42 @@ export const workExperiences: WorkExperience[] = [
   },
   {
     logo: "/dire.jfif",
-    companyTitle: "Dire Dawa Inistitute & Technology",
+    companyTitle: "Dire Dawa University ICT Directorate",
     role: "Network Installer & Full Stack Developer Intern",
     description:
       "Installed and maintained network systems and assisted in developing small web applications as part of the internship program.",
     startDate: "September 2021",
     endDate: "February 2022",
+  },
+];
+
+interface Education {
+  logo: string;
+  eduTitle: string;
+  department: string;
+  description: string;
+  startDate: string;
+  endDate: string | "Present";
+}
+
+// List of work experiences in chronological order (most recent first)
+export const Education: Education[] = [
+  {
+    logo: "/dire.jfif", // path in the public folder
+    eduTitle: "Dire Dawa University",
+    department: "BSc in Electrical & Computer Engineering (Computer Stream)",
+    description:
+      "Completed a Bachelor of Science degree in Electrical and Computer Engineering with a focus on the Computer stream. This program provided a strong foundation in computer systems, digital logic design, programming, and electronics, equipping me with the technical skills essential for problem-solving and innovation in technology.",
+    startDate: "September 2017",
+    endDate: "June 2022",
+  },
+  {
+    logo: "/alx.svg",
+    eduTitle: "ALX Africa",
+    department: "Certificate in Software Engineering (Backend Specialization)",
+    description:
+      "Earned a certificate in a rigorous one-year Software Engineering program with a specialization in backend development. The program emphasized database management, server-side programming, and API development, providing hands-on experience with modern backend technologies and best practices in building scalable, efficient applications.",
+    startDate: "November 2022",
+    endDate: "January 2024",
   },
 ];

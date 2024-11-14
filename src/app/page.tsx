@@ -1,5 +1,6 @@
 import Bio from "@/components/bio";
 import Contact from "@/components/contact-section";
+import Edu from "@/components/edu-section";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/project-section";
@@ -27,6 +28,10 @@ export default function Home() {
       {/*Work Section*/}
       <section id="work">
         <Work />
+      </section>
+      {/*Edu Section*/}
+      <section id="edu">
+        <Edu />
       </section>
       {/*Contact Section*/}
       <section id="contact">

@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   githubLink,
 }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
+    <div className="bg-gray-50 shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
       <Image
         src={thumbnail}
         alt={title}

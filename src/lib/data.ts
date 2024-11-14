@@ -60,10 +60,10 @@ interface Project {
 export const projects: Project[] = [
   {
     thumbnail: "/thumbnail.jfif",
-    title: "E-commerce Platform",
+    title: "Uchi",
     description:
-      "A full-featured e-commerce platform built with Next.js and Tailwind CSS.",
-    technologies: [SiNextdotjs, SiTailwindcss],
+      "A full-featured google chrome extension to manage sites & bookmarks on browser built with HTML, TailwindCss & JS.",
+    technologies: [SiHtml5, SiJavascript, SiTailwindcss],
     liveDemoLink: "https://ecommerce-demo.com",
     githubLink: "https://github.com/yourusername/ecommerce-platform",
   },

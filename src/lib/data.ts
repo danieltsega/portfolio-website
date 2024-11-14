@@ -99,17 +99,19 @@ export const projects: Project[] = [
   },
   {
     thumbnail: "/thumbnail.jfif",
-    title: "Task Management Tool",
-    description: "A task management tool built with Next.js and Tailwind CSS.",
-    technologies: [SiNextdotjs, SiTailwindcss],
+    title: "Airbnb Clone",
+    description:
+      "An Airbnb Clone web app built using HTML, CSS, and Flask, featuring a Flask API for handling backend functionality",
+    technologies: [SiFlask, SiMysql, SiHtml5, SiCss3],
     liveDemoLink: "https://task-manager-demo.com",
     githubLink: "https://github.com/yourusername/task-manager",
   },
   {
     thumbnail: "/thumbnail.jfif",
-    title: "Finance Tracker",
-    description: "A finance tracking app built with Django and Tailwind CSS.",
-    technologies: [SiPython, SiDjango, SiTailwindcss],
+    title: "Guday",
+    description:
+      "A web application built with Nextjs & Django for users to access & hire tasks providers or get instruction on how to do the task themselves.",
+    technologies: [SiNextdotjs, SiDjango, SiTailwindcss],
     liveDemoLink: "https://finance-tracker-demo.com",
     githubLink: "https://github.com/yourusername/finance-tracker",
   },

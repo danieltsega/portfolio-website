@@ -8,7 +8,7 @@ const SocialLinks: React.FC = () => {
     <div className="bg-white shadow-sm border rounded-lg p-4 flex flex-col sm:flex-row items-center justify-center gap-6 space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
       <div className="flex justify-center space-x-6">
         <Link
-          href="https://github.com/yourusername"
+          href="https://github.com/danieltsega"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -16,7 +16,7 @@ const SocialLinks: React.FC = () => {
           <FaGithub className="text-gray-800 hover:text-gray-600 w-6 h-6 transition-colors duration-300" />
         </Link>
         <Link
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/danieltsega/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -24,7 +24,7 @@ const SocialLinks: React.FC = () => {
           <FaLinkedin className="text-blue-800 hover:text-blue-600 w-6 h-6 transition-colors duration-300" />
         </Link>
         <Link
-          href="https://twitter.com/yourusername"
+          href="https://x.com/TsegaDanie79064"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"

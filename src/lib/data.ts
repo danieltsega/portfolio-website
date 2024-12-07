@@ -9,8 +9,6 @@ import {
   SiMysql,
   SiDocker,
   SiTailwindcss,
-  SiPandas,
-  SiTensorflow,
   SiDjango,
   SiLaravel,
   SiFlask,

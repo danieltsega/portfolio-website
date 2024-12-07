@@ -18,6 +18,7 @@ const ContactCard: React.FC = () => {
           {" "}
           📩 dannytsega@outlook.com
         </a>
+        <br/>
         <a href="mailto:dannytsega16@gmail.com" className="ml-2 text-blue-500">
           {" "}
           📩 dannytsega16@gmail.com

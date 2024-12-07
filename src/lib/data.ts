@@ -48,8 +48,8 @@ export const technologies = [
   { icon: SiLaravel, text: "Laravel" },
   { icon: SiFlask, text: "Flask" },
   { icon: BiLogoPostgresql, text: "PostgreSQL" },
-  { icon: SiPandas, text: "Pandas" },
-  { icon: SiTensorflow, text: "Tensorflow" },
+  /**{ icon: SiPandas, text: "Pandas" },
+  { icon: SiTensorflow, text: "Tensorflow" },**/
   { icon: SiGit, text: "Git" },
   { icon: SiDocker, text: "Docker" },
   { icon: SiLinux, text: "Linux" },
@@ -136,7 +136,7 @@ interface WorkExperience {
 
 // List of work experiences in chronological order (most recent first)
 export const workExperiences: WorkExperience[] = [
-  {
+  /**{
     logo: "/world.png", // path in the public folder
     companyTitle: "Freelance",
     role: "Full Stack Developer",
@@ -145,13 +145,14 @@ export const workExperiences: WorkExperience[] = [
     startDate: "March 2022",
     endDate: "Present",
   },
+  **/
   {
     logo: "/ankiyon.jpg",
     companyTitle: "Ankiyon Design",
     role: "Full Stack Developer",
     description:
       "Developing web applications and APIs using Next.js and Django, integrating front-end designs with back-end functionality.",
-    startDate: "February 2024",
+    startDate: "June 2024",
     endDate: "Present",
   },
   {

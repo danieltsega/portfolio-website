@@ -13,14 +13,14 @@ const ContactCard: React.FC = () => {
       <p className="text-gray-900 text-lg">
         I’m open to new projects and collaborations. Feel free to reach out if
         you have an idea or project in mind.
+        <br/>
         <a href="mailto:dannytsega@outlook.com" className="ml-2 text-blue-500">
           {" "}
-          dannytsega@outlook.com
+          📩 dannytsega@outlook.com
         </a>
-        &
         <a href="mailto:dannytsega16@gmail.com" className="ml-2 text-blue-500">
           {" "}
-          dannytsega16@gmail.com
+          📩 dannytsega16@gmail.com
         </a>
       </p>
     </div>

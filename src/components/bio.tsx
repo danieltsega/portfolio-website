@@ -35,9 +35,7 @@ const Bio = () => {
           Am a dedicated developer specializing in{" "}
           <span className="font-bold">Next.js</span> for front-end and
           <span className="font-bold"> Django </span>
-          for back-end, with past experience in Laravel. Currently, am diving
-          into AI, focusing on machine learning, deep learning, and computer
-          vision, while also nurturing a deep interest in computer architectures
+          for back-end, with past experience in Laravel. Currently, am eager to learn about AI, Software security & Low level programming, while also nurturing a deep interest in computer architectures
           and low-level computing concepts.
         </p>
       </div>

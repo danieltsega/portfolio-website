@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { IconType } from "react-icons";
 import { ExternalLink } from "lucide-react";
+import Link from "next/link";
 
 import {
   SiNextdotjs,
@@ -41,7 +42,17 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
         <p className="text-gray-700 text-muted-foreground tracking-tight">
           {description}
         </p>
-        <div className="flex items-center space-x-2 mb-4 gap-2 mt-4">
+        <hr className="mb-4 mt-4" />
+        <div className="flex flex-row-reverse justify-between">
+            <Link
+                href={liveLink}
+                className="text-blue-600 hover:underline flex gap-2"
+                passHref
+            >
+            <ExternalLink height={20} width={20} />
+          </Link>
+
+          <div className="flex items-center space-x-2 gap-2">
                   {technologies.map((Icon, index) => {
                     let iconColor = "text-blue-500"; // default color
         
@@ -62,6 +73,7 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
                     return <Icon key={index} className={`w-5 h-5 ${iconColor}`} />;
                   })}
                 </div>
+        </div>
       </div>
     </div>
   );

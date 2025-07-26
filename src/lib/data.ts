@@ -82,7 +82,7 @@ export const myWorks: MyWorks[] = [
     logo: "/hello-coffee-logo.png",
     companyName: "Hello Coffee Origins",
     associatedCompany: "Freelance",
-    description: "I built a Blog and Coffee Product sharing website for a coffee selling company.",
+    description: "I built a Blog and Coffee Product sharing website for a well known coffee products selling company called Hello Coffee Origins.",
     technologies: [SiDjango],
     liveLink: "https://www.hellocoffeeorigins.com"
   },
@@ -98,7 +98,7 @@ export const myWorks: MyWorks[] = [
     logo: "/ankiyon.jpg",
     companyName: "Ankiyon Design",
     associatedCompany: "Freelance",
-    description: "I built a fully functional website for a design company called Ankiyon Design.",
+    description: "I built a fully functional website for a design company called Ankiyon Design in which the company uploads their works, testimonaial and insights.",
     technologies: [SiLaravel],
     liveLink: "N/A"
   },

@@ -32,7 +32,7 @@ const Bio = () => {
           <br /> am Danny
         </h2>
         <p className="md:absolute bg-gray-50 top-44 text-lg p-4 shadow-md border rounded-lg text-muted-foreground tracking-tight">
-          I've always been drawn to how computers evolved — from early machines to the birth of programming. That curiosity turned into a passion for building things with code. I enjoy solving problems, understanding how tools work under the hood, and crafting clean, efficient systems that actually make a difference.
+          I have always been drawn to how computers evolved — from early machines to the birth of programming. That curiosity turned into a passion for building things with code. I enjoy solving problems, understanding how tools work under the hood, and crafting clean, efficient systems that actually make a difference.
         </p>
       </div>
     </section>

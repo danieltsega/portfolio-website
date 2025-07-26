@@ -74,9 +74,33 @@ export const myWorks: MyWorks[] = [
     logo: "/coffee-solution-logo.png",
     companyName: "A Coffee Solutions",
     associatedCompany: "Freelance",
-    description: "In this project a built a complete Coffee Skills Learning Management System & Product and Research paper sharing platform for a well know coffee skill training company.",
+    description: "In this project I built a complete Coffee Skills Learning Management System & Product and Research paper sharing platform for a well know coffee skill training company.",
     technologies: [SiDjango],
     liveLink: "https://www.acoffeesolution.com"
+  },
+  {
+    logo: "/hello-coffee-logo.png",
+    companyName: "Hello Coffee Origins",
+    associatedCompany: "Freelance",
+    description: "I built a Blog and Coffee Product sharing website for a coffee selling company.",
+    technologies: [SiDjango],
+    liveLink: "https://www.hellocoffeeorigins.com"
+  },
+  {
+    logo: "/cherish-logo.png",
+    companyName: "Cherish Addis Abeba",
+    associatedCompany: "Freelance",
+    description: "I built a Digital menu web that uses QR scanning in order to check out the menu and order for a well known cafe in the heart of ethiopian capital.",
+    technologies: [SiDjango],
+    liveLink: "N/A"
+  },
+  {
+    logo: "/ankiyon.jpg",
+    companyName: "Ankiyon Design",
+    associatedCompany: "Freelance",
+    description: "I built a fully functional website for a design company called Ankiyon Design.",
+    technologies: [SiLaravel],
+    liveLink: "N/A"
   },
 ];
 

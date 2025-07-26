@@ -2,6 +2,7 @@ import Bio from "@/components/bio";
 import Contact from "@/components/contact-section";
 import Edu from "@/components/edu-section";
 import Footer from "@/components/footer";
+import MyWork from "@/components/myWork-section";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/project-section";
 import SkillSection from "@/components/skill-section";
@@ -21,6 +22,8 @@ export default function Home() {
       <Separator />
       {/*Skill Section*/}
       <SkillSection />
+      {/*My Works Section*/}
+      <MyWork />
       {/*Project Section*/}
       <section id="projects">
         <Projects />

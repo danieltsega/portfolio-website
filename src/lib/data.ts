@@ -21,6 +21,7 @@ import {
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IconType } from "react-icons";
+import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 
 // Get Languages Icons
 
@@ -50,8 +51,28 @@ export const technologies = [
   { icon: SiLinux, text: "Linux" },
 ];
 
-// Projects Data
+// My Works Data
+interface MyWorks {
+  logo: string;
+  companyName: string;
+  associatedCompany: string;
+  description: string;
+  technologies: IconType[];
+  liveLink: string;
+}
 
+export const myWorks: MyWorks[] = [
+  {
+    logo: "/savanna-logo.png",
+    companyName: "Savanna Accountancy",
+    associatedCompany: "Xavad Technologies",
+    description: "This project was done for United Kindom Based Accountacny Company which let's clients set up appointments, upload their files and get accounting service from the company.",
+    technologies: [SiDjango, SiNextdotjs],
+    liveLink: "https://dev.savannaaccountancy.co.uk"
+  },
+];
+
+// Projects Data
 interface Project {
   thumbnail: string;
   title: string;
@@ -71,6 +92,15 @@ export const projects: Project[] = [
     liveDemoLink: "https://ecommerce-demo.com",
     githubLink: "https://github.com/danieltsega/Uchi",
   },
+  // {
+  //   thumbnail: "/thumbnail.jfif",
+  //   title: "Savanna Accountancy Web App",
+  //   description:
+  //     "This project was done for United Kindom Based Accountacny Company which let's clients set up appointments, upload their files and get accounting service from the company. This project was done via our company Xavad Technologies.",
+  //   technologies: [SiDjango, SiNextdotjs],
+  //   liveDemoLink: "https://social-media-demo.com",
+  //   githubLink: "https://github.com/danieltsega/car-rental-system",
+  // },
   {
     thumbnail: "/thumbnail.jfif",
     title: "Car Rental Web App",

@@ -134,25 +134,33 @@ interface WorkExperience {
 
 // List of work experiences in chronological order (most recent first)
 export const workExperiences: WorkExperience[] = [
-  /**{
+  {
+    logo: "/xavad-logo.png", // path in the public folder
+    companyTitle: "Xavad Technologies",
+    role: "Co-Founder | Front-End Developer",
+    description:
+      "Helping local and International Companies by providing ultimate tech solutions using cutting-edge technologies.",
+    startDate: "May 2025",
+    endDate: "Present",
+  },
+  {
     logo: "/world.png", // path in the public folder
     companyTitle: "Freelance",
     role: "Full Stack Developer",
     description:
       "Building full-stack applications for various clients, focusing on scalable and efficient solutions using modern web technologies.",
-    startDate: "March 2022",
+    startDate: "June 2024",
     endDate: "Present",
   },
-  **/
-  {
-    logo: "/ankiyon.jpg",
-    companyTitle: "Ankiyon Design",
-    role: "Full Stack Developer",
-    description:
-      "Developing web applications and APIs using Next.js and Django, integrating front-end designs with back-end functionality.",
-    startDate: "May 2024",
-    endDate: "Present",
-  },
+  // {
+  //   logo: "/ankiyon.jpg",
+  //   companyTitle: "Ankiyon Design",
+  //   role: "Full Stack Developer",
+  //   description:
+  //     "Developing web applications and APIs using Next.js and Django, integrating front-end designs with back-end functionality.",
+  //   startDate: "May 2024",
+  //   endDate: "Present",
+  // },
   {
     logo: "/dire.png",
     companyTitle: "Dire Dawa University ICT Directorate",

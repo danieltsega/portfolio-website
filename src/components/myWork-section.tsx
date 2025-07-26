@@ -3,9 +3,9 @@ import { myWorks } from "@/lib/data";
 
 const MyWork: React.FC = () => {
   return (
-    <section className="mt-4 px-4 md:px-0">
+    <section className="mt-8 px-4 md:px-0">
       <h1 className="text-3xl font-bold text-start mb-8">
-        💼Work Experience & Internships
+        💼My Works
       </h1>
       <div>
         {myWorks.map((work, index) => (

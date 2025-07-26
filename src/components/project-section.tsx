@@ -2,6 +2,7 @@
 
 import ProjectCard from "./project-card";
 import { projects } from "@/lib/data";
+import Link from "next/link";
 
 const Projects: React.FC = () => {
   return (
@@ -19,6 +20,14 @@ const Projects: React.FC = () => {
           />
         ))}
       </div>
+      <Link
+       href="https://www.github.com/danieltsega/"
+       className="text-blue-600 hover:underline flex gap-2 mt-8 text-lg"
+       passHref
+       target="_blank"
+      >
+        View more project on github
+      </Link>
     </section>
   );
 };

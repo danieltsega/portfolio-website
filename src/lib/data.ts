@@ -68,7 +68,15 @@ export const myWorks: MyWorks[] = [
     associatedCompany: "Xavad Technologies",
     description: "This project was done for United Kindom Based Accountacny Company which let's clients set up appointments, upload their files and get accounting service from the company.",
     technologies: [SiDjango, SiNextdotjs],
-    liveLink: "https://dev.savannaaccountancy.co.uk"
+    liveLink: "https://www.dev.savannaaccountancy.co.uk"
+  },
+  {
+    logo: "/coffee-solution-logo.png",
+    companyName: "A Coffee Solutions",
+    associatedCompany: "Freelance",
+    description: "In this project a built a complete Coffee Skills Learning Management System & Product and Research paper sharing platform for a well know coffee skill training company.",
+    technologies: [SiDjango],
+    liveLink: "https://www.acoffeesolution.com"
   },
 ];
 

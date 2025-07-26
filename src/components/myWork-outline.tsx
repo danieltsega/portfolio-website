@@ -46,16 +46,7 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
           {description}
         </p>
         <hr className="mb-4 mt-4" />
-        <div className="flex flex-row-reverse justify-between">
-            <Link
-                href={liveLink}
-                className="text-blue-600 hover:underline flex gap-2"
-                passHref
-                target="__blank"
-            >
-            View Site
-          </Link>
-
+        <div className="flex justify-between">
           <div className="flex items-center space-x-2 gap-2">
                   {technologies.map((Icon, index) => {
                     let iconColor = "text-blue-500"; // default color
@@ -77,6 +68,17 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
                     return <Icon key={index} className={`w-5 h-5 ${iconColor}`} />;
                   })}
                 </div>
+
+                {liveLink !== "N/A" && (
+                  <Link
+                    href={liveLink}
+                    className="text-blue-600 hover:underline flex gap-2"
+                    passHref
+                    target="_blank"
+                  >
+                    View Site
+                  </Link>
+                )}
         </div>
       </div>
     </div>

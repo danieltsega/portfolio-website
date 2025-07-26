@@ -29,9 +29,6 @@ export const languages = [
   { icon: SiJavascript, text: "JavaScript" },
   { icon: SiPython, text: "Python" },
   { icon: SiPhp, text: "PHP" },
-  { icon: SiMarkdown, text: "Markdown" },
-  { icon: SiHtml5, text: "HTML5" },
-  { icon: SiCss3, text: "CSS3" },
   { icon: SiC, text: "C-programming" },
   { icon: SiGnubash, text: "Bash" },
 ];

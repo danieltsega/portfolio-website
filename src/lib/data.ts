@@ -15,13 +15,13 @@ import {
   SiC,
   SiGnubash,
   SiPhp,
-  SiMarkdown,
+  //SiMarkdown,
   SiRedis,
   SiLinux,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IconType } from "react-icons";
-import { Icon } from "next/dist/lib/metadata/types/metadata-types";
+//import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 
 // Get Languages Icons
 

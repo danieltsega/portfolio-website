@@ -26,7 +26,7 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
   liveLink,
 }) => {
   return (
-    <div className="bg-white shadow-sm border rounded-lg p-4 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
+    <div className="bg-gray-50 shadow-sm border rounded-lg p-4 flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
       <Image
         src={logo}
         alt={`${companyName} logo`}
@@ -37,7 +37,7 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
 
       <div>
         <h2 className="text-xl font-semibold">{companyName}</h2>
-        <h3 className="text-gray-600">{associatedCompany}</h3>
+        <h3 className="text-gray-600 mb-2 italic">{associatedCompany}</h3>
         <p className="text-gray-700 text-muted-foreground tracking-tight">
           {description}
         </p>

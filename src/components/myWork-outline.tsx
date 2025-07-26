@@ -49,7 +49,7 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
                 className="text-blue-600 hover:underline flex gap-2"
                 passHref
             >
-            <ExternalLink height={20} width={20} />
+            View Site
           </Link>
 
           <div className="flex items-center space-x-2 gap-2">

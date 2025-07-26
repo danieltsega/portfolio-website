@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { IconType } from "react-icons";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Building2Icon } from "lucide-react";
 import Link from "next/link";
 
 import {
@@ -38,7 +38,10 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
 
       <div>
         <h2 className="text-xl font-semibold">{companyName}</h2>
-        <h3 className="text-gray-600 mb-2 italic">{associatedCompany}</h3>
+        <h3 className="text-gray-600 mb-2 italic flex items-center gap-2">
+          <Building2Icon className="h-5 w-5"></Building2Icon>
+          {associatedCompany}
+          </h3>
         <p className="text-gray-700 text-muted-foreground tracking-tight">
           {description}
         </p>
@@ -48,6 +51,7 @@ const MyWorkCard: React.FC<MyWorkCardProps> = ({
                 href={liveLink}
                 className="text-blue-600 hover:underline flex gap-2"
                 passHref
+                target="__blank"
             >
             View Site
           </Link>

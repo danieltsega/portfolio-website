@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { IconType } from "react-icons";
-import { ExternalLink, Building2Icon } from "lucide-react";
+import { Building2Icon } from "lucide-react";
 import Link from "next/link";
 
 import {
